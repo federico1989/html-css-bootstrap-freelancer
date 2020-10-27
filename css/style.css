@@ -15,3 +15,14 @@ header {
   line-height: 80px;
 }
 /* /header */
+/* main */
+/* start */
+#Start {
+  background-color: #1abc9c;
+}
+/* /start */
+/* Portfolio */
+#Portfolio img {
+  width: 350px;
+  border-radius: 5px;
+}
