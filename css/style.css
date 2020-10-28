@@ -90,6 +90,7 @@ h2 {
 /* /header */
 /* main */
 body [class*="star"] {
+  font-size: 35px;
   margin-bottom: 50px;
 }
 #site_main .btn-primary:hover {
