@@ -15,6 +15,9 @@ body {
 .bc_dark {
   background-color: #343a40;
 }
+.bc_footer_b {
+  background-color: #1a252f;
+}
 .py-40 {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -86,10 +89,13 @@ h2 {
 /* /start */
 /* /header */
 /* main */
+body [class*="star"] {
+  margin-bottom: 50px;
+}
 #site_main .btn-primary:hover {
-    color: #fff;
-    background-color: #159a80;
-    border-color: #148f77;
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
 }
 /* Portfolio */
 /* #Portfolio, #About, #Contact_Me {
@@ -110,6 +116,7 @@ h2 {
 /* /About */
 /* Conctact me */
 #conctact_me .btn {
+  margin-top: 100px;
   text-align: none;
 }
 #conctact_me .form-control {
@@ -140,7 +147,8 @@ h3 {
   font-size: 20px;
 }
 #site_footer .p-copy {
-  font-size: 10px;
+  font-size: 13px;
+  padding: 20px;
 }
 a:focus, a:hover {
     color: #1abc9c;
