@@ -98,21 +98,65 @@ body [class*="star"] {
   border-color: #148f77;
 }
 /* Portfolio */
-/* #Portfolio, #About, #Contact_Me {
-  height: 700px;
-} */
-#portfolio img {
-  width: 350px;
+.box {
+  width: 300px;
+  height: 150px;
   border-radius: 5px;
-}
-#portfolio img:hover {
+  position: relative;
+  background-size: cover;
   cursor: pointer;
+}
+.box i {
+  display: none;
+}
+.overlay:hover i {
+  display: inline-block;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box:hover .overlay {
+  border-radius: 5px;
+  background-color: #1abc9c;
+}
+#cabin {
+  height: 220px;
+  background-image: url("../img/cabin.png");
+}
+#cake {
+  height: 220px;
+  background-image: url("../img/cake.png");
+}
+#circus {
+  height: 220px;
+  background-image: url("../img/circus.png");
+}
+#game {
+  height: 220px;
+  background-image: url("../img/game.png");
+}
+#safe {
+  height: 220px;
+  background-image: url("../img/safe.png");
+}
+#submarine {
+  height: 220px;
+  background-image: url("../img/submarine.png");
 }
 /* /Portfolio */
 /* About */
 #about p {
   font-size: 20px;
 }
+
 /* /About */
 /* Conctact me */
 #conctact_me .btn {
