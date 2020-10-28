@@ -6,6 +6,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 /* utility */
 
 .bc_darkblue {
@@ -18,20 +19,35 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .container-sm {
   max-width: 980px;
   margin: auto;
 }
+.btn {
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid white;
+  margin-bottom: 80px;
+}
 /* /utility */
 
 /* header */
-header {
-  height: 700px;
-  line-height: 80px;
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 /* navbar */
 .navbar {
   border: none;
+}
+.navbar-header a, .nav a {
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -48,8 +64,18 @@ header {
 /* /navbar */
 
 /* start */
-
-#Start, #About {
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+#Start p{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#Start, #About, .btn {
   background-color: #1abc9c;
   color: white;
 }
@@ -61,7 +87,7 @@ header {
 /* /header */
 /* main */
 #site_main {
-  height: 1500px;
+
 }
 /* Portfolio */
 /* #Portfolio, #About, #Contact_Me {
@@ -71,32 +97,35 @@ header {
   width: 350px;
   border-radius: 5px;
 }
+#Portfolio img:hover {
+  cursor: pointer;
+}
 /* /Portfolio */
 /* About */
 /* /About */
 /* Conctact me */
+#Conctact_me .btn {
+  text-align: none;
+}
 /* /Conctact me */
 /* /main */
 
 /* footer */
 #site_footer {
-  height: 150px;
   color: white;
 }
+h3 {
+  text-transform: uppercase;
+}
+#site_footer i {
+  font-size: 20px;
+  border-radius: 100%;
+  padding: 15px;
+  border: 2px solid white;
+  margin-bottom: 80px;
+}
+a:focus, a:hover {
+    color: #1abc9c;
+}
+
 /* /footer */
-/* <nav class="navbar-fixed-top bc_darkblue">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <a href="#">Start Bootstrap</a>
-      </div>
-      <!-- /col left nav -->
-      <div class="col-md-4 col-md-offset-4">
-        <a href="#">Portfolio</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-      <!-- /col right nav -->
-    </div>
-  </div>
-</nav> */
