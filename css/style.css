@@ -70,42 +70,51 @@ h2 {
   padding-top: 60px;
   text-transform: uppercase;
 }
-#Start p{
+#start p{
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 50px;
 }
-#Start, #About, .btn {
+#start, #about, .btn {
   background-color: #1abc9c;
   color: white;
 }
-#Start img {
+#start img {
   margin-top: 150px;
   width: 250px;
 }
 /* /start */
 /* /header */
 /* main */
-#site_main {
-
+#site_main .btn-primary:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
 }
 /* Portfolio */
 /* #Portfolio, #About, #Contact_Me {
   height: 700px;
 } */
-#Portfolio img {
+#portfolio img {
   width: 350px;
   border-radius: 5px;
 }
-#Portfolio img:hover {
+#portfolio img:hover {
   cursor: pointer;
 }
 /* /Portfolio */
 /* About */
+#about p {
+  font-size: 20px;
+}
 /* /About */
 /* Conctact me */
-#Conctact_me .btn {
+#conctact_me .btn {
   text-align: none;
+}
+#conctact_me .form-control {
+  border: 1px solid white;
+  font-size: 25px;
 }
 /* /Conctact me */
 /* /main */
@@ -115,6 +124,9 @@ h2 {
   color: white;
 }
 h3 {
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 #site_footer i {
@@ -124,8 +136,13 @@ h3 {
   border: 2px solid white;
   margin-bottom: 80px;
 }
+#site_footer p, #site_footer a {
+  font-size: 20px;
+}
+#site_footer .p-copy {
+  font-size: 10px;
+}
 a:focus, a:hover {
     color: #1abc9c;
 }
-
 /* /footer */
